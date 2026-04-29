@@ -209,7 +209,7 @@ in many different ways. How can I help you today?
 
 **Multilingual (Korean 🇰🇷):**
 
-First, use a text model to translate:
+First, use Gemini to translate:
 
 ```
 Translate this to Korean: Hey there, I'm a new text to speech model,
@@ -219,8 +219,7 @@ and I can say things in many different ways. How can I help you today?
 Then generate speech from the Korean text:
 
 ```
-[very fast] 안녕하세요! 저는 새로운 텍스트 음성 변환(TTS) 모델이에요.
-다양한 방식으로 말을 할 수 있답니다. 오늘 어떻게 도와드릴까요?
+[very fast] 안녕하세요! 저는 새로운 텍스트 음성 변환(TTS) 모델이에요. 다양한 방식으로 말을 할 수 있답니다. 오늘 어떻게 도와드릴까요?
 ```
 
 **What to notice:** Tone tags like `[bored]`, `[very fast]`, `[whispering]` give you fine-grained control over delivery. Multilingual support works seamlessly.
